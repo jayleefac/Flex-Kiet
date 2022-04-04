@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: 600px;
+    height: 400px;
+    background-color: lightslategray;
+    margin: 20px;
+}
+.box{
+    width: 80px;
+    height: 80px;
+    background-color: crimson;
+    margin: 5px;
+}
+.S1{
+    display: flex;
+}
+.S2{
+    display: flex;
+    justify-content: center;
+}
+.S3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.S4{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.S5{
+    display: flex;
+    justify-content: space-between;
+}
+.S6{
+    display: flex;
+    justify-content: space-around;
+}
+.S7{
+    display: flex;
+	flex-wrap: wrap;
+    align-content: flex-start;
+}
+.S8{
+    display: flex;
+	flex-wrap: wrap;
+    padding: 0 150px;
+	align-content: center;
+	justify-content: center;
+	box-sizing: border-box;
+}
+.S9{
+    display: flex;
+	flex-wrap: wrap;
+    padding: 0 130px;
+	justify-content: center;
+	align-items: center;
+}
+.S10{
+    display: flex;
+    flex-direction:column;
+}
+.S11{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.S12{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.S13{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.S14{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.S15{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+.S16{
+    display: flex;
+    flex-direction:column;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+.S17{
+    display: flex;
+    flex-direction:column; 
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	padding: 50px 0px;
+	box-sizing: border-box;
+}
+.S18{
+    display: flex;
+	flex-wrap: wrap;
+    flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0px;
+	box-sizing: border-box;
+}
+.S19{
+    display: flex;
+    justify-content: center;
+}
+.S20{
+    display: flex;
+    justify-content: center;
+}
+.align-self-center{
+    align-self: center;
+    }
+
+.align-self-endf{
+    align-self: flex-end;
+}
